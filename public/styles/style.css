@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .app-comp{
-    width: 50%;
+    width: 350px;
 }
 .controlling{
     display: flex;
@@ -19,7 +19,7 @@
 }
 
 .object-block{
-    width: 40%;
+    width: 80%;
 }
 .filter-count{
     width: 40px;
