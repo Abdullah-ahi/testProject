@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <main class='app-container'>
+            <div class="app-comp">
+                <damper ref="damper"></damper>
+                <filter-comp ref="filter-comp"></filter-comp>
+                <heater ref="heater"></heater>
+                <cooler ref="cooler"></cooler>
+            </div>
+            <div class="app-comp">
+                <fan ref="fan"></fan>
+                <common ref="common"></common>
+            </div>
+        </main>
+        <button class="send-button" >SEND</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/Fan.js"></script>
+    <script src="scripts/Cooler.js"></script>
+    <script src="scripts/Heater.js"></script>
+    <script src="scripts/Filter.js"></script>
+    <script src="scripts/Damper.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

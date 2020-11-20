@@ -1,0 +1,88 @@
+.app-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.app-comp{
+    width: 50%;
+}
+.controlling{
+    display: flex;
+    flex-direction: column;
+}
+
+.controlling-block{
+    display: flex;
+}
+
+.controling-lbl{
+    margin-top: 10px;
+}
+
+.object-block{
+    width: 40%;
+}
+.filter-count{
+    width: 40px;
+    margin-left: 10px;
+}
+.damper-controling{
+    margin-left: 42px;
+    margin-top: 10px;
+}
+.damper-open-controling{
+    margin-left: 57px;
+    margin-top: 10px;
+}
+.filter-controling{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.heater-controlling{
+    margin-left: 94px;
+    margin-top: 10px;
+}
+.cooler-controlling{
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.fan-controling{
+    margin-left: 49px;
+    margin-top: 10px;
+}
+.common-controling{
+    margin-left: 82px;
+}
+.common-open-controling{
+    margin-left: 57px;
+    margin-top: 10px;
+}
+.filter-count{
+    margin-left: 46px;
+}
+.margin-lbl{
+    margin-top: 10px;
+}
+.fan-margin{
+    margin-left: 22px;
+}
+.fan-power{
+    width: 40px;
+    margin-left: 62px;
+}
+.send-button{
+    width: 100px;
+    height: 30px;
+    margin: 70px 0 0 20px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 15px;
+    background-color: bisque;
+}
+.send-button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.send-button:active{
+    background-color: #fff;
+    color: #000000;
+}
