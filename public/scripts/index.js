@@ -37,6 +37,8 @@ const app = new Vue({
                 "Доп. опции": this.projectData.find(el => el.id === 666).component.addOptions,
 
             })
+            alert('Данные отправлены')
+            window.location.reload();
         }
     },
 
